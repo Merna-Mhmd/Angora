@@ -1,0 +1,395 @@
+
+
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+
+
+
+
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+
+font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --main-color:#f25454;
+}
+
+
+
+/* ================navbar=================== */
+
+
+
+
+.first{
+    color:var(--main-color) !important;
+}
+.menu{
+    margin-left: 280px;
+    font-size: 15px !important;
+}
+.navbar-nav .nav-link:hover {
+    color: var(--main-color) !important;
+}
+/* nav{
+    z-index: 1;
+} */
+.bdr::after{
+    position: absolute;
+    bottom: 5px;
+    margin: 0;
+    height: 3px;
+   
+    background-color: #fafafa;
+    opacity: 0.1;
+    width: 100%;
+    box-sizing: border-box;
+    content: '';
+}
+.ICON ul{
+    font-size: 15px;
+}
+/* ====================home======================= */
+#home{
+    background-image: url(../img/slideshow-1.jpg);
+    background-size: cover;
+    
+    background-position: center cENTER;
+}
+
+.p2{
+    max-width: 600px;
+     margin: auto;
+ }
+ 
+.sitting{
+    top: 25%;
+}
+.arrow{
+    top: 50%;
+}
+.arrow2{
+    top: 55.5%;
+}
+.mouse{
+    bottom: 50px;
+}
+
+/* about ===================== */
+.p3{
+    max-width: 700px;
+     margin: auto;
+ }
+ .linee{
+	display: block;
+	width: 5%;
+	margin: 15px auto;
+	background:black;
+	height: 1px;
+    transition: all 2s;
+
+} 
+.linee:hover{
+    width: 10%;
+}
+
+.title2 h2::after{
+    content: ' A';
+    position: absolute;
+    font-size: 5rem;
+    font-weight: bolder;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+   color: black;
+   opacity: 0.1;
+    letter-spacing: 0.5rem;
+}
+
+.title4 h2::after{
+    content: ' C';
+    position: absolute;
+    font-size: 5rem;
+    font-weight: bolder;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+   color: black;
+   opacity: 0.1;
+    letter-spacing: 0.5rem;
+}
+
+.title3 h2::after{
+    content: ' O';
+    position: absolute;
+    font-size: 5rem;
+    font-weight: bolder;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+   color: black;
+   opacity: 0.1;
+    letter-spacing: 0.5rem;
+}
+
+
+.title5 h2::after{
+    content: ' S';
+    position: absolute;
+    font-size: 5rem;
+    font-weight: bolder;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+   color: black;
+   opacity: 0.1;
+    letter-spacing: 0.5rem;
+    
+}
+
+.title6 h2::after{
+    content: ' G';
+    position: absolute;
+    font-size: 5rem;
+    font-weight: bolder;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+   color: black;
+   opacity: 0.1;
+    letter-spacing: 0.5rem;
+    
+}
+
+
+
+
+.progress{
+    height: 5px !important;
+    margin-bottom: 25px !important;
+    margin-top: 10px !important;
+}
+/* team=================== */
+.icons{
+
+transition: all 2S;
+
+position: absolute;
+
+height: 100%;
+width: 100%;
+
+background-color: rgba(242, 84, 84, 0.85);
+top: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0;
+
+}
+.icons ul{
+    list-style-type: none;
+}
+.icons:hover{
+ 
+    opacity: 1;
+   
+    transform: scale(1.1);
+}
+.pic img{
+    width: 100%;
+    transition: all 2S; 
+    display: block; 
+}
+.pic:hover img{
+    transform: scale(1.1);
+}
+.caption:hover h4{
+    color:var(--main-color);
+}
+/* ==============================???? */
+.bttn{
+    margin-left: 555px;
+    margin-top: -40px;
+}
+.bttn:hover button{
+    background-color: var(--main-color);
+    opacity: 0.7;
+    color: white;
+}
+
+
+/* services */
+#services{
+    background-color: #fafafa;
+}
+.card2:hover h3{
+    color: var(--main-color);
+}
+
+
+.card2 i{
+    margin-left: -29px;
+    margin-right: 10px;
+}
+
+
+.P4{
+    max-width: 600px;
+     margin: auto;
+ }
+
+
+ .content img{
+    width: 100px;
+    
+}
+
+.carousel-indicators [data-bs-target] {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+.carousel-indicators [data-bs-slide-to="0"] {
+    background-image:url(../img/client-1.png) ;
+}
+.carousel-indicators [data-bs-slide-to="1"] {
+    background-image:url(../img/client-2.png) ;
+}
+.carousel-indicators [data-bs-slide-to="2"] {
+    background-image:url(../img/client-3.png) ;
+}
+.carousel-indicators [data-bs-slide-to="3"] {
+    background-image:url(../img/client-4.png) ;
+}
+.carousel-indicators [data-bs-slide-to="4"] {
+    background-image:url(../img/client-5.png) ;
+}
+.carousel-indicators [data-bs-slide-to="5"] {
+    background-image:url(../img/client-6.png) ;
+}
+.carousel-indicators [data-bs-slide-to="6"] {
+    background-image:url(../img/client-7.png) ;
+}
+.carousel-indicators [data-bs-slide-to="7"] {
+    background-image:url(../img/client-8.png) ;
+}
+.carousel-indicators [data-bs-slide-to="8"] {
+    background-image:url(../img/client-9.png) ;
+}
+.carousel-indicators [data-bs-slide-to="9"] {
+    background-image:url(../img/client-5.png) ;
+ 
+}
+
+
+
+
+
+.carousel-indicators {
+    bottom: 239px !important;
+    margin: 12px auto !important;
+}
+
+
+
+#contact{
+    background-color: #fafafa;
+   
+}
+
+
+.con-text:hover h4{
+    color: var(--main-color);
+
+}
+.contact-text i{
+    color: var(--main-color);
+
+}
+.con-text{
+    left: 70px;
+}
+::placeholder{
+    color: #ccc;
+    opacity: 0.5;
+}
+.form{
+    margin-top: 75px !important;
+}
+
+.form-control:hover{
+   border: 2px solid var(--main-color) !important;
+}
+
+.bttn2:hover{
+    background-color: var(--main-color);
+    opacity: 0.7;
+    color: white;
+}
+ .hvr:hover{
+    color: var(--main-color);
+ }
+
+ .hvr:hover strong{
+    color: var(--main-color);
+ }
+.icon8{
+ background-color: var(--main-color);
+ opacity: 0.7;
+ color: white;
+ margin-top: -60px;
+}
+
+.icon8:hover{
+  opacity: 1;
+   
+   }
+   
+
+.linke{
+    text-decoration: none;
+    
+   
+}
+
+#final{
+    background-image: url(../img/dotted-map.png);
+    background-color: black;
+}
+
+.bttn3:hover{
+  border: 1px solid var(--main-color);
+    color: #f25454;
+    background-color: transparent;
+}
+
+.hvr:hover{
+    color:var(--main-color) !important;
+}
+
+.end{
+    background-color: black !important;
+}
+
+
+
+
+
+.carousel-indicators {
+    bottom: -50px;
+}
